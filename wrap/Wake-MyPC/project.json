@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net452": {
+      "wrappedProject": "../../Wake-MyPC/Wake-MyPC.csproj",
+      "bin": {
+        "assembly": "../../Wake-MyPC/obj/{configuration}/Wake-MyPC.dll",
+        "pdb": "../../Wake-MyPC/obj/{configuration}/Wake-MyPC.pdb"
+      },
+      "dependencies": {
+        "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "1.0.0",
+        "Microsoft.Net.Compilers": "1.0.0"
+      }
+    }
+  }
+}
