@@ -29,6 +29,11 @@ namespace Wake_MyPC
             DoWOL(MACAddress);
         }
 
+        protected string GetBroadcastAddress(string IP)
+        {
+            return "yes";
+        }
+
         static void DoWOL(string MACAddress)
         {
 
